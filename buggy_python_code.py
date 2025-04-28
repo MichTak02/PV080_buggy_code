@@ -20,6 +20,7 @@ class Person(object):
 
 
 def print_nametag(format_string, person):
+    """Print a nametag"""
     print(format_string.format(person=person))
 
 
